@@ -127,7 +127,8 @@ h6 {
   }
 
   #main {
-    margin-left: 0;
+    /* margin-left: 0; */
+    margin-left: 322px;
   }
 }
 
@@ -1091,5 +1092,11 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .fromLinkFiber4 {
+    margin-left: 330px;
   }
 }

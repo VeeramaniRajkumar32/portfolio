@@ -3,7 +3,6 @@ import React from "react";
 export default function Main() {
   return (
     <div>
-      {/* <main id="main"> */}
 
       <section id="about" className="about">
         <div className="container">
@@ -26,7 +25,7 @@ export default function Main() {
               />
             </div>
             <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-              <h3>UI/UX Designer &amp; Web Developer.</h3>
+              <h3>Web Developer </h3>
               <p className="fst-italic">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -36,19 +35,19 @@ export default function Main() {
                   <ul>
                     <li>
                       <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>Birthday:</strong> <span>1 May 1995</span>
+                      <strong>Birthday:</strong> <span>30 May 2000</span>
                     </li>
-                    <li>
+                    {/* <li>
                       <i className="bi bi-chevron-right"></i>{" "}
                       <strong>Website:</strong> <span>www.example.com</span>
+                    </li> */}
+                    <li>
+                      <i className="bi bi-chevron-right"></i>{" "}
+                      <strong>Phone:</strong> <span>+91 9361395819</span>
                     </li>
                     <li>
                       <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>Phone:</strong> <span>+123 456 7890</span>
-                    </li>
-                    <li>
-                      <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>City:</strong> <span>New York, USA</span>
+                      <strong>City:</strong> <span>TamilNadu, India</span>
                     </li>
                   </ul>
                 </div>
@@ -56,16 +55,16 @@ export default function Main() {
                   <ul>
                     <li>
                       <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>Age:</strong> <span>30</span>
+                      <strong>Age:</strong> <span>23</span>
                     </li>
                     <li>
                       <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>Degree:</strong> <span>Master</span>
+                      <strong>Degree:</strong> <span>Bachelor</span>
                     </li>
                     <li>
                       <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>PhEmailone:</strong>{" "}
-                      <span>email@example.com</span>
+                      <strong>Email:</strong>{" "}
+                      <span>rajveera30500@gmail.com</span>
                     </li>
                     <li>
                       <i className="bi bi-chevron-right"></i>{" "}
@@ -225,7 +224,7 @@ export default function Main() {
 
               <div className="progress">
                 <span className="skill">
-                  JavaScript <i className="val">75%</i>
+                  JavaScript <i className="val">85%</i>
                 </span>
                 <div className="progress-bar-wrap">
                   <div
@@ -257,7 +256,7 @@ export default function Main() {
 
               <div className="progress">
                 <span className="skill">
-                  WordPress/CMS <i className="val">90%</i>
+                  CMS <i className="val">90%</i>
                 </span>
                 <div className="progress-bar-wrap">
                   <div
@@ -404,7 +403,7 @@ export default function Main() {
         </div>
       </section>
 
-      <section id="portfolio" className="portfolio section-bg">
+      {/* <section id="portfolio" className="portfolio section-bg">
         <div className="container">
           <div className="section-title">
             <h2>Portfolio</h2>
@@ -642,7 +641,7 @@ export default function Main() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section id="services" className="services">
         <div className="container">
           <div className="section-title">
@@ -752,7 +751,7 @@ export default function Main() {
         </div>
       </section>
 
-      <section id="testimonials" className="testimonials section-bg">
+      {/* <section id="testimonials" className="testimonials section-bg">
         <div className="container">
           <div className="section-title">
             <h2>Testimonials</h2>
@@ -888,7 +887,7 @@ export default function Main() {
             <div className="swiper-pagination"></div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section id="contact" className="contact">
         <div className="container">
@@ -908,19 +907,20 @@ export default function Main() {
                 <div className="address">
                   <i className="bi bi-geo-alt"></i>
                   <h4>Location:</h4>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>06, Mela Gandhinagar, Keeranur, Pudukkottai, TN 622502, India</p>
                 </div>
 
                 <div className="email">
                   <i className="bi bi-envelope"></i>
                   <h4>Email:</h4>
-                  <p>info@example.com</p>
+                  <p>rajveera300@gmail.com</p>
                 </div>
 
                 <div className="phone">
                   <i className="bi bi-phone"></i>
                   <h4>Call:</h4>
-                  <p>+1 5589 55488 55s</p>
+                  <p>+91 8525897626</p>
+                  <p>+91 9361395819</p>
                 </div>
 
                 {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe> */}
